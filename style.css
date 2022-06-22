@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+body{
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+}
+main{
+    background-color: hsl(216, 50%, 16%);
+    width: 325px;
+    margin: 10rem 33rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.equi{
+    width: 280px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+}
+h2{
+    color: hsl(0, 0%, 100%);
+    margin-left: 20px;
+}
+h2:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+p{
+    font-size: 18px;
+    margin-left: 18px;
+}
+.eth{
+    color: hsl(178, 100%, 50%);
+}
+.eth-time{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+.line{
+    color: hsl(215, 32%, 27%);
+    border-style:solid;
+    width: 17rem;
+}
+.avatar{
+    width: 35px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-top: 10px;
+}
+.name{
+    color: hsl(0, 0%, 100%);
+}
+.name:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+@media(max-width:768px){
+    body{
+        margin: 0 auto;
+    }
+    main{
+        margin-left: 40px;
+        margin-right: 10px;
+    }
+}
